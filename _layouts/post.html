@@ -1,0 +1,16 @@
+---
+layout: default
+style: /assets/css/post.css
+title: Blog
+---
+<div id="content-container">
+    <div id="post-body">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <div id="author-info">
+            <img class="author-img" src="{{ page.author-img }}">
+            <h5 class="author-name">{{ page.author }}</h5>
+            <h6 class="post-date">Published {{ page.date-string }}</h6>
+        </div>
+        {{ content }}
+    </div>
+</div>

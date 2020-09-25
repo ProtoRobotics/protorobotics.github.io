@@ -1,0 +1,26 @@
+---
+---
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ProtoRobotics | {{ page.title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/styles.css" type="text/css">
+        <link rel="stylesheet" href="{{ layout.style }}" type="text/css">
+        <link rel="stylesheet" href="{{ page.style }}" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="/"><img src="/assets/images/protologos.svg" width="300px"></a>
+            <ul id="nav-list">
+                <a href="/blog"><li>Blog</li></a>
+                <a href="mailto:contact@gmail.com"><li>Contact</li></a>
+                <li class="rainbow-text">Donate</li>
+            </ul>
+        </nav>
+        {{ content }}
+    </body>
+</html>

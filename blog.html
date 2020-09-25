@@ -1,0 +1,23 @@
+---
+layout: default
+style: /assets/css/blog.css
+title: Blog
+---
+<div id="post-container">
+    <div id="posts">
+        {% for post in site.posts %}
+            <a class="entry" href="{{ post.url }}">
+                <div id="author-info">
+                    <div>
+                        <img class="author-img" src="{{ post.author-img }}">
+                    </div>
+                    <div>
+                        <h2>{{ post.title }}</h2>
+                        <p>{{ post.excerpt }}</p>
+                        <h6 class="post-date">Published {{ post.date-string }}</h6>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</div>
