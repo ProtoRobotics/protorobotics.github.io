@@ -10,6 +10,11 @@ p {
     text-indent: 50px;
 }
 
+p > img, #post-body > img {
+    max-width: 100%;
+    padding: 40px 0px 40px 0px;
+}
+
 #content-container {
     display: flex;
     justify-content: center;

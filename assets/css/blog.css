@@ -18,6 +18,10 @@ body {
     background-color: #F6F7EB;
 }
 
+h6 {
+    color: #393E41;
+}
+
 #posts {
     display: flex;
     flex-direction: column;
