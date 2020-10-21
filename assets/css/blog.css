@@ -60,6 +60,17 @@ h6 {
 	font-weight: 400;
 }
 
+.pagination {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #393E41;
+}
+
+.previous {
+    margin-right: 20px;
+}
+
 @media screen and (max-width: 768px) {
     h2 {
         font-size: 25px;

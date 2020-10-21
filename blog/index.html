@@ -2,10 +2,12 @@
 layout: default
 style: /assets/css/blog.css
 title: Blog
+pagination: 
+  enabled: true
 ---
 <div id="post-container">
     <div id="posts">
-        {% for post in site.posts %}
+        {% for post in paginator.posts %}
             <a class="entry" href="{{ post.url }}">
                 <div id="author-info">
                     <div>
@@ -19,5 +21,13 @@ title: Blog
                 </div>
             </a>
         {% endfor %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">&lt Previous</a>
+          {% endif %}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Next &gt</a>
+          {% endif %}
+      </div>
     </div>
 </div>
