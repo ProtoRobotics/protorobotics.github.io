@@ -81,7 +81,7 @@ p {
 	background-size: 800% 800%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    animation: rainbow 4s ease infinite;
+    animation: rainbow 5s ease infinite;
 }
 
 @keyframes rainbow {
