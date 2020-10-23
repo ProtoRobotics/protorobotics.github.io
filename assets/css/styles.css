@@ -43,6 +43,10 @@ p {
     padding: 0px;
 }
 
+#logo {
+    width: 300px;
+}
+
 .button {
     border: none;
     text-decoration: none;
@@ -60,7 +64,7 @@ p {
     padding: 0px;
     display: flex;
     position: absolute;
-    right: 55px;
+    right: 25px;
 }
 
 #nav-list > li, #nav-list > a {
@@ -68,6 +72,7 @@ p {
     padding: 15px;
     color: #393E41;
     text-decoration: none;
+    font-size: 15px;
 }
 
 .rainbow-text {
@@ -76,7 +81,7 @@ p {
 	background-size: 800% 800%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-    animation: rainbow 8s ease infinite;
+    animation: rainbow 4s ease infinite;
 }
 
 @keyframes rainbow {
@@ -175,7 +180,14 @@ footer > h3 {
         padding-left: 25px;
     }
 
+    #logo {
+        width: 225px;
+    }
+
     #nav-list {
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
         position: relative;
         right: 0px;
     }

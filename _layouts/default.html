@@ -18,13 +18,16 @@
     </head>
     <body>
         <nav>
-            <a href="/"><img src="/assets/images/protologos.svg" width="300px"></a>
+            <a href="/"><img id="logo" src="/assets/images/protologos.svg"></a>
             <ul id="nav-list">
                 <a href="/blog"><li>Blog</li></a>
-                <a href="mailto:contact@gmail.com"><li>Contact</li></a>
+                <a href="/sponsors"><li>Sponsors</li></a>
+                <a href="mailto:chad.mcfarland@mcusd709.org"><li>Contact</li></a>
                 <li class="rainbow-text">Donate</li>
             </ul>
         </nav>
-        {{ content }}
+        <div id="page-content">
+            {{ content }}
+        </div>
     </body>
 </html>

@@ -1,0 +1,33 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    background-color: #F6F7EB;
+}
+
+#page-content {
+    padding: 20px 0px 0px 3.5vw;
+}
+
+h1 {
+    color: #393E41;
+}
+
+h1, h2, h3 {
+    margin: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    #page-content {
+        padding: 20px 0px 0px 4.5vw;
+    }
+
+    #sponsors > h2 {
+        font-size: 30px; 
+    }
+
+    #sponsors > h3 {
+        font-size: 20px;
+    }
+}
